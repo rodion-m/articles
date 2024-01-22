@@ -1,2 +1,2 @@
 # Список моих статей
-* [Просто про асинхронную машину состояний в C# и где именно там аллокации](https://github.com/rodion-m/articles/blob/main/async_state_machine.md)
+* [Разбираемся с асинхронной машиной состояний в C# раз и навсегда](https://github.com/rodion-m/articles/blob/main/async_state_machine.md)
