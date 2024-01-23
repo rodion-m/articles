@@ -131,7 +131,8 @@ public Task Main()
     stateMachine.Builder = AsyncTaskMethodBuilder.Create();
     stateMachine.Instance = this;
     stateMachine.CurrentState = AsyncStateMachine.State.NotStarted;
-    stateMachine.Builder.Start(ref stateMachine);
+    stateMachine.Builder.Start(ref stateMachine); // Первый вызов MoveNext происходит прямо в Start
+    // Исходный код этого метода Start доступен по ссылке: https://source.dot.net/#System.Private.CoreLib/src/libraries/System.Private.CoreLib/src/System/Runtime/CompilerServices/AsyncMethodBuilderCore.cs,21
     return stateMachine.Builder.Task;
 }
 ```
