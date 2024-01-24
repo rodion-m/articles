@@ -1,3 +1,7 @@
+# Dictionary<TKey, TValue>
+Упрощенный класс Dictionary из C# с комментариями.
+
+```cs
 public class SimpleDictionary<TKey, TValue>
 {
     // Структура Entry хранит информацию для каждого элемента словаря
@@ -109,3 +113,4 @@ public class SimpleDictionary<TKey, TValue>
 
     // Другие методы, такие как Remove, TryGetValue и т.д., могут быть добавлены по мере необходимости
 }
+```
